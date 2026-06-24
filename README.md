@@ -16,6 +16,40 @@ PySpark の基礎から実践的なデータ処理まで、ノート、サンプ
 
 ---
 
+## 前提知識 / 前置知识
+
+### 日本語
+
+PySpark を学習するために、事前に以下の知識を身につけておくことを推奨します。
+
+必須ではありませんが、特に Pandas の経験があると、PySpark の DataFrame を理解しやすくなります。
+
+推奨する学習順序：
+
+- Python 基礎
+- Pandas（推奨）
+- PySpark DataFrame
+- Spark SQL
+- ETL
+- Performance Tuning
+
+### 中文
+
+建议在学习 PySpark 之前，先具备以下基础知识。
+
+虽然不是必须，但如果有 Pandas 的使用经验，会更容易理解 PySpark DataFrame。
+
+推荐学习顺序：
+
+- Python 基础
+- Pandas（推荐）
+- PySpark DataFrame
+- Spark SQL
+- ETL
+- 性能优化（Performance Tuning）
+
+> 注：Pandas 底层基于 NumPy，而 PySpark 底层基于 Apache Spark（JVM）。PySpark 并不依赖 NumPy，但掌握 Pandas 会显著降低学习难度。
+
 ## 学習目標 / 学习目标
 
 ### 日本語
