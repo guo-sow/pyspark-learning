@@ -24,14 +24,8 @@ PySpark を学習するために、事前に以下の知識を身につけてお
 
 必須ではありませんが、特に Pandas の経験があると、PySpark の DataFrame を理解しやすくなります。
 
-推奨する学習順序：
-
 - Python 基礎
 - Pandas（推奨）
-- PySpark DataFrame
-- Spark SQL
-- ETL
-- Performance Tuning
 
 ### 中文
 
@@ -39,14 +33,8 @@ PySpark を学習するために、事前に以下の知識を身につけてお
 
 虽然不是必须，但如果有 Pandas 的使用经验，会更容易理解 PySpark DataFrame。
 
-推荐学习顺序：
-
 - Python 基础
 - Pandas（推荐）
-- PySpark DataFrame
-- Spark SQL
-- ETL
-- 性能优化（Performance Tuning）
 
 > 注：Pandas 底层基于 NumPy，而 PySpark 底层基于 Apache Spark（JVM）。PySpark 并不依赖 NumPy，但掌握 Pandas 会显著降低学习难度。
 
@@ -172,7 +160,25 @@ source .venv/bin/activate
 
 ---
 
-### Step 6：PySpark をインストール / 安装 PySpark
+### Step 6：NumPy と Pandas をインストール / 安装 NumPy 和 Pandas
+
+PySpark の学習やデータ処理の確認のために、`numpy` と `pandas` も先にインストールしておくと便利です。
+
+为了便于学习 PySpark 和处理数据，建议先安装 `numpy` 和 `pandas`。
+
+```bash
+pip install numpy pandas
+```
+
+確認：
+
+```bash
+python -c "import numpy; import pandas; print(numpy.__version__, pandas.__version__)"
+```
+
+---
+
+### Step 7：PySpark をインストール / 安装 PySpark
 
 ```bash
 pip install pyspark
@@ -188,7 +194,7 @@ python -c "import pyspark; print(pyspark.__version__)"
 
 ---
 
-### Step 7：動作確認 / 验证环境
+### Step 8：動作確認 / 验证环境
 
 新しいファイル `test.py` を作成します。
 
